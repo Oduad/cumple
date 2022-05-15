@@ -1,0 +1,97 @@
+.titulo{
+    font-size: 82px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 100vw;
+    font-weight: 500px;
+}
+
+.color_header {
+    background-color: #52B6F9;
+    /*Aquí se usa una variable*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: radial-gradient(cornflowerblue 15%, white 85%);
+    background-size: cover ;
+    text-align: center;
+    /*background: url(../img/indexim.jpg) repeat-y;
+    background-size: cover;*/
+}
+
+h1{
+    padding: 80px;
+    font-weight: 700;
+    color: purple;
+}
+
+.logo_header {
+    max-width: 100px;
+}
+
+h2{
+    font-size: 75px;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    color: purple;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 55px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+p{
+    padding: 80px;
+    text-align: justify;
+    font-size: 16px;
+    color: purple;
+    font-weight: 600;
+}
+
+.img1_index{
+    text-align: justify;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.imagen_footer1{
+    max-width: 300px;
+}
+
+.imagen_footer2{
+    max-width: 300px;
+}
+
+.body2{
+    background: url(../img/fondo1.jpg) repeat-y;
+    background-size: cover;
+}
+
+.body3{
+    background: url(../img/fondo2.jpg) repeat-y;
+    background-size: cover;
+}
+
+.body4{
+    background: url(../img/fondo3.jpg) repeat-y;
+    background-size: cover;
+}
+
+.body5{
+    background: url(../img/clown.jpg) repeat-y;
+    background-size: cover;
+}
