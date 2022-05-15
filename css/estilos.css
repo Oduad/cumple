@@ -1,8 +1,4 @@
-.titulo{
-    font-size: 82px;
-    text-align: center;
-}
-
+/*Header*/
 header {
     display: flex;
     flex-flow: column nowrap;
@@ -17,15 +13,21 @@ header {
     padding: 0;
 }
 
-body{
+.titulo {
+    font-size: 82px;
+    text-align: center;
+}
+
+body {
     background-image: radial-gradient(cornflowerblue 15%, white 85%);
-    background-size: cover ;
+    background-size: cover;
     text-align: center;
     /*background: url(../img/indexim.jpg) repeat-y;
     background-size: cover;*/
+    overflow-x: hidden;
 }
 
-h1{
+h1 {
     padding: 80px;
     font-weight: 700;
     color: purple;
@@ -35,7 +37,7 @@ h1{
     max-width: 100px;
 }
 
-h2{
+h2 {
     font-size: 75px;
     text-align: center;
     padding-top: 40px;
@@ -46,7 +48,7 @@ h2{
     color: purple;
 }
 
-h3{
+h3 {
     font-size: 50px;
     text-align: center;
     padding-top: 55px;
@@ -54,7 +56,7 @@ h3{
     padding-left: 50px;
 }
 
-p{
+p {
     padding: 80px;
     text-align: justify;
     font-size: 16px;
@@ -62,36 +64,170 @@ p{
     font-weight: 600;
 }
 
-.img1_index{
+.img1_index {
     text-align: justify;
     align-items: center;
     padding-top: 40px;
 }
 
-.imagen_footer1{
-    max-width: 300px;
-}
-
-.imagen_footer2{
-    max-width: 300px;
-}
-
-.body2{
+.body2 {
     background: url(../img/fondo1.jpg) repeat-y;
     background-size: cover;
+    overflow-x: hidden;
 }
 
-.body3{
+.body3 {
     background: url(../img/fondo2.jpg) repeat-y;
     background-size: cover;
+    overflow-x: hidden;
 }
 
-.body4{
+.body4 {
     background: url(../img/fondo3.jpg) repeat-y;
     background-size: cover;
+    overflow-x: hidden;
 }
 
-.body5{
+.body5 {
     background: url(../img/clown.jpg) repeat-y;
     background-size: cover;
+    color: hotpink;
+    overflow-x: hidden;
+}
+
+.ImagenCiencias {
+    max-width: 300px;
+}
+
+.tituloCiencias {
+    color: violet;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.textoCiencias {
+    color: lightgreen;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.colCiencias2 {
+    padding: 25px;
+}
+
+.p3 {
+    font-size: 12px;
+}
+
+.imagen_footer1 {
+    max-width: 100px;
+    padding-right: 15px;
+}
+
+.imagen_footer2 {
+    max-width: 100px;
+    padding-left: 15px;
+}
+
+@media (max-width: 576px) {
+
+    /*HEADER*/
+    .logo_header {
+        max-width: 200px;
+        padding: 20px;
+    }
+
+    /*INDEX*/
+
+    .titulo {
+        padding: 80px;
+        font-weight: 700;
+        color: purple;
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 55px;
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        font-weight: 700;
+    }
+
+    p {
+        padding: 40px;
+        text-align: center;
+        font-size: 22px;
+        color: purple;
+        font-weight: 500;
+    }
+
+    .img1_index {
+        max-width: 220px;
+    }
+
+    .paquete {
+        max-width: 250px;
+    }
+
+    /*CUMPLEAÑOS*/
+    .ImagenCiencias {
+        max-width: 160px;
+        padding-top: 15px;
+    }
+
+    .tituloCumple {
+        padding: 20px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .textoCumple {
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        color: lightgreen;
+    }
+
+    /*CIENCIAS*/
+
+    .ImagenCumple {
+        max-width: 200px;
+    }
+
+    .tituloCiencias {
+        color: violet;
+        padding: 20px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .textoCiencias {
+        color: lightgreen;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .colCiencias2 {
+        padding: 25px;
+    }
+
+    /*HEADER*/
+    .p3 {
+        font-size: 12px;
+    }
+
+    .imagen_footer1 {
+        max-width: 80px;
+        padding-right: 15px;
+    }
+
+    .imagen_footer2 {
+        max-width: 80px;
+        padding-left: 15px;
+    }
 }
