@@ -3,7 +3,8 @@ header {
     display: flex;
     flex-flow: column nowrap;
     min-width: 100vw;
-    font-weight: 500px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .color_header {
@@ -89,10 +90,14 @@ p {
 }
 
 .body5 {
-    background: url(../img/clown.jpg) repeat-y;
+    background: url(../img/fondo2.jpg) repeat-y;
     background-size: cover;
     color: hotpink;
     overflow-x: hidden;
+}
+
+.modal-body, .modal-dialog, .modal-header, .modal-footer{
+    background-color: pink;
 }
 
 .ImagenCiencias {
@@ -141,10 +146,10 @@ p {
     /*INDEX*/
 
     .titulo {
-        padding: 80px;
+        padding: 30px;
         font-weight: 700;
         color: purple;
-        font-size: 55px;
+        font-size: 50px;
     }
 
     h2 {
@@ -203,6 +208,19 @@ p {
         padding: 20px;
         text-align: center;
         font-size: 32px;
+    }
+    .tituloCumple {
+        color: whitesmoke;
+        padding: 20px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .textoProfesora {
+        color: gold;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
     }
 
     .textoCiencias {
