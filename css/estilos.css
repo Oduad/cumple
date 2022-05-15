@@ -247,11 +247,11 @@ p {
 
     .imagen_footer1 {
         max-width: 80px;
-        padding-right: 15px;
+        padding-right: 20px;
     }
 
     .imagen_footer2 {
         max-width: 80px;
-        padding-left: 15px;
+        padding-left: 20px;
     }
 }
