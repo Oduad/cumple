@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felicitaciones</title>
+    <title>Feliz Cumpleaños</title>
     <!-- Librería AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Boostrap CDN - Online-->
@@ -16,13 +17,15 @@
     <!--Librería para animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<body class="body4">
+
+<body class="body3">
 
     <header class="animate__animated animate__bounce ">
         <nav class="navbar navbar-expand-lg navbar-light bg-light color_header">
             <div class=" container-fluid color_header">
                 <a class="navbar-brand" href="index.html">
-                    <img src="../img/logosep.png" class="logo_header img-fluid" alt="Logotipo SEP" data-aos="zoom-in-down">
+                    <img src="../img/logosep.png" class="logo_header img-fluid" alt="Logotipo SEP"
+                        data-aos="zoom-in-down">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,12 +55,77 @@
         </nav>
     </header>
 
+    <main>
+        <div class="row altura_row_oferta">
+            <div class="col-12 col-sm-6 col-md-6 colCumple2">
+                <h2 class="tituloCumple" data-aos="zoom-in-down"> &#128522 Otro pequeño reconocimiento &#128522</h2>
+                <p class="textoCumple" data-aos="zoom-in-down">“Ningún idioma puede expresar el poder, belleza y heroísmo del amor de una madre”. <br> - Edwin Chapin
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 colCumple3">
+                <img src="../img/madre5.jpg" alt="Foto de galería" class="ImagenCumple" data-aos="zoom-in-down">
+                <br> <br> <br>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo" data-aos="zoom-in-down">Ver imágenes</button> <br> <br> <br>
+            </div>
+        </div>
+    </main>
+
+    <!--Inicio del modal 1-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">🤱 🤱 🤱 🤱 🤱 🤱</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img src="../img/madre1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="../img/madre2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/madre3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/madre4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/madre5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin del modal 1-->
+
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <img src="img/logosep.jpg" alt="" class="imagen_footer1">
+            <img src="../img/logosep.jpg" alt="" class="imagen_footer1">
             Desarrolló la SEP en coordinación con el IEEPO | © 2022 Copyright
-            <img src="img/logoieepo.jpg" alt="" class="imagen_footer2">
+            <img src="../img/logoieepo.jpg" alt="" class="imagen_footer2">
         </div>
         <!-- Copyright -->
     </footer>
@@ -73,4 +141,5 @@
     <!-- Inicializador de AOS -->
     <script> AOS.init();</script>
 </body>
+
 </html>
