@@ -234,6 +234,12 @@ p {
         padding: 25px;
     }
 
+    .modal-title{
+        color: purple;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
     /*HEADER*/
     .p3 {
         font-size: 12px;
